@@ -1,7 +1,4 @@
-# arduino-rwdh2
-
-Arduino library for interfacing with RWD Hitag2 modules from
-ibtechnology
+# arduino-RWDH2
 
 Arduino library to interface with [ibtechnology](http://www.ibtechnology.co.uk)'s
 [RWD Hitag2](http://www.ibtechnology.co.uk/products/hitag2-product.htm) RFID modules
@@ -15,9 +12,6 @@ Clone as RWDH2 and put in your arduino libraries folder
 Please note that the ibtechnology modules only support PASSWORD mode, not crypto
 
 This library is based on the [RWDH2 datasheet](http://www.ibtechnology.co.uk/pdf/H2PROT.PDF)
-
-The RWD module cannot read a tag and communicate via serial at the same
-time so you need to make sure you wire a CTS pin.
 
 ## Usage
 
